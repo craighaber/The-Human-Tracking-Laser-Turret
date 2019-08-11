@@ -33,12 +33,10 @@ void setup()
   
   // Use color connected components program for the pan/tilt to track 
   pixy.changeProg("color_connected_components");
-  
 }
 
 void loop()
 {  
-
   static int i = 0;
   int j;
   char buf[64]; 
@@ -58,6 +56,7 @@ void loop()
     if (i%40==0){
      tone(audioPin,700,1000);
     }
+    
     if(i%40==20){
       tone(audioPin,400,1000);
     }
@@ -76,14 +75,12 @@ void loop()
   
     // set pan and tilt servos based on PIDLoop calculation
     pixy.setServos(panLoop.m_command, tiltLoop.m_command);
-   
-
   }  
   else // no object detected, continually search
   {
     //turn lasers off
     digitalWrite(laserPin, LOW);
-
+    
     //switch direction when pans maximum distance (1000)
     if (loopCounter == 1000){
       moveForward = false;
@@ -101,9 +98,7 @@ void loop()
     }
      pixy.setServos(loopCounter,0);
     
-    
     panLoop.reset();
     tiltLoop.reset();
-   
   }
 }
