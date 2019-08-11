@@ -1,6 +1,7 @@
 //turret_program
 //Author: Craig Haber
-//This program allows the Human Tracking Laser Turret to track colored targets that are predefined using the PixyMon software (i.e. shirt colors, colored tags)
+//This program allows the Human Tracking Laser Turret to track colored targets that are predefined 
+//using the PixyMon software (i.e. shirt colors, colored tags)
 //It is a modified version of the ccc_pantilt program developed by PixyMon with the following changes:
 //  When the turret detects a target it will sound an alarm and shine lasers on it while tracking it.
 //  When the turret is not tracking a target it continuously pans backa and forth to search for one.
