@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+*{
+	font-family: 'Lato', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-size: 26px;
+	background-color: white;
+	max-width: 100%;
+    overflow-x: hidden;
+}
+
+#title{	
+	height: 90vh;
+	color: white;
+	text-align: center;
+	background-color: crimson;
+}
+
+#title-text{
+	position: relative;
+	top: 30vh;
+	
+}
+
+#big-text{
+	font-size: 80px;
+	font-weight: 400;
+}
+
+#craig{
+	margin-top: 5vh;
+	font-size: 40px;
+	font-weight: 400;
+	animation-delay: .1s;
+}
+
+.intro-text{
+	display: relative;
+	left: 200px;
+	margin: 23%;
+	margin-top: 50px;
+	margin-bottom: 0;
+	line-height: 50px;
+	text-align: justify;
+}
+
+ol{
+	margin-top: 50px;
+	position: relative;
+	left: 40%;
+}
+
+#materials-div{
+	width: 102%;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	background-color: crimson;
+	color: white;
+}
+
+#materials{
+	font-size: 70px;	
+	margin-left: 38%;
+}
+
+#mats-ul{
+	margin-top: 20px;
+	margin-left: 40%;
+}
+
+li{
+	margin-top: 20px;
+}
+
+#development{
+	text-align: center;
+	margin-top: 50px;
+}
+
+#development h3{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 32px;
+}
+
+#development p{
+	margin-top: 30px;
+}
+
+#turret-s4{
+	position: relative;
+	top: 65px;
+	transform: rotate(90deg);
+}
+
+#s4{
+	padding-top: 130px;
+}
+
+#development img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+
+#development video{
+	height: 450px;
+}
+
+#s1, #s2, #s3, #s4, #s5, #s6{
+	margin: 0 30vw;
+	line-height: 1.5;
+	text-align: justify;
+
+}
+
+#final{
+	padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 1000px) { /*For smaller screens*/
+
+		ol{
+			left: 20%;
+		}
+		.goal{
+			margin: 0 2vw;
+		
+		}
+
+		#s1, #s2, #s3, #s4, #s5, #s6{
+			margin: 0 2vw;
+		}
+
+		#goal-div p{
+			margin-top: 20px;
+		}
+}

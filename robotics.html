@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Human Tracking Laser Turret</title>
+	<link rel="stylesheet" href="roboticsapp.css"/>
+	<link  rel="stylesheet" href="animate.css"/>
+
+</head>
+
+<body>
+	<div id="title">
+		<div id="title-text">
+			<h1 id="big-text" class="animated bounceInUp">Human tracking laser turret</h1>
+			<h2 id="craig" class = "animated bounceInUp">Created by Craig Haber</h2>
+		</div>
+		
+	</div>
+	
+
+	<div id="intro">
+		<p class="intro-text">The Human Tracking Laser Turret is a security system that can detect the colors on people's clothes and sound an alarm if it recognizes that the people wearing those colors are intruders. A user can determine which colors sound the alarm by connecting the turret to a computer and downloading the PixyMon v2 software. Through this software, the turret can be trained to identify up to seven colors as unauthorized. The turret was pre-trained to recognize a reddish-pink color as unauthorized to showcase it working in action. </p>
+		<p class="intro-text">The turret continuously pans back and forth to search for a target. When it detects someone wearing clothing of an unauthorized color it will:</p>
+		<ol>
+			<li>Sound an alarm</li>
+			<li>Shine three lasers on the person</li>
+			<li>Track that person's movement</li>
+			
+		</ol>
+		<p class="intro-text">The turret be used by companies as a security system to keep a room off limits to subordinates. This is espically useful for companies where the subordinates wear uniforms that are the same color, such as camp counselors.</p>
+	</div>
+	
+	
+
+	<div id="materials-div">
+		<h2 id="materials">Materials</h2>
+		<ul id="mats-ul">
+			<li>Pixy 2 Camera</li>
+			<li>Adafruit pan/tilt kit</li>
+			<li>3 Laser diodes</li>
+			<li>Arduino Uno and cable</li>
+			<li>Portable Charger</li>
+			<li>Hamburger Speaker</li>
+			<li>Breadboard and lots of wires!</li>
+			<li>Laser cutter and glass construct the base</li>
+			<li>Hinge and screws to attach a door to the base</li>
+			<li>Wood and hot glue to attach camera to the base</li>
+		</ul>
+	</div>
+
+	
+
+	<div id="development">
+		<h2>Stages of Development</h2>
+
+		<h3>Stage 1</h3>
+		<img id="turret-s1" src="photos/turret_s1.jpg" alt="turret stage 1">
+		<p id="s1">In the first stage, I made cuts to the pan/tilt base to make room for wiring, and attached the camera.</p>
+
+		<h3>Stage 2</h3>
+		<img id="turret-s2" src="photos/turret_s2.jpg" alt="turret stage 2">
+		<p id="s2">This is an older version of the robot. The camera is glued onto the pan/tilt base, which is glued onto a rubik's cube. The lasers are all wired up!</p>
+
+		<h3>Stage 3</h3>
+		<video id="turret-s3" controls>
+			<source src="photos/turret_s3.mp4" type="video/mp4">
+		</video>
+		<p id="s3">After adjusting some parameters in PixyMon and testing some Arduino programs, I was able to get the turret to track me when I attach a reddish/pink marker to my shirt!</p>
+
+		<h3 id="s4-heading">Stage 4</h3>
+		<img id="turret-s4" src="photos/turret_s4.jpg" alt="turret stage 4">
+		<p id="s4">I constructed a new base for turret by laser cutting parts and attaching a door so that the wiring can be adjusted if necessary. In addition, the turret runs indipendently from the computer and continually pans back and forth until it finds a target.</p>
+
+		<h3>Stage 5</h3>
+		<img id="turret-s5" src="photos/turret_s5.jpg" alt="turret stage 5">
+		<p id="s6">I attached a speaker to the turret and programmed it so that it sounds an alarm when it identifies a target. I also programmed the turret so that it only shines its lasers when it finds a target. Finally, I added some decorative signs to scare intruders away.</p>
+
+		<h3>Final Stage</h3>
+		<video id="turret-s6" controls>
+			<source src="photos/turret_s6.mp4" type="video/mp4">
+		</video>
+		<p id="s6">In the final stage, I trained the turret to recognize a reddish-pink shirt as unauthorized. As you can see, it does not react when someone with a blue shirt walks into the room. When some enters the room with a reddish-pink shirt it sounds the alarm, shines lasers on me, and pans to track me as I move through the room.</p>
+
+		<p id= "code">Click <a href= "https://github.com/craighaber/The-Human-Tracking-Laser-Turret"/>here</a> to view the code used to program the turret.</p>
+		<p id="final"> I hope you enjoyed! Contact me <a href = "mailto: chaber@conncoll.edu">here</a> if you are interested in learning more.
+
+	</div>
+
+</body>
+
+
+
